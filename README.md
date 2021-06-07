@@ -102,7 +102,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Basic CSS | H |  3hr | :---: | :---: |
 | Get API displayed | H |  2hr | :---: | :---: |
 | Work on Components | M |  2hr | :---: | :---: |
-| Set up Create function | 3hr |  :---: | :---: | :---: |
+| Set up Create function | H |  3hr | :---: | :---: |
 |  | :---: |  :---: | :---: | :---: |
 | --- | :---: |  :---: | :---: | :---: |
 | --- | :---: |  :---: | :---: | :---: |
