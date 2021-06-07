@@ -1,15 +1,32 @@
 import './App.css';
+import { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
+import { GetQuotes } from "./services/api";
 
-import Mind from "./Components/Mind"
-import Heart from "./Components/Heart"
-import Soul from "./Components/Soul"
+
+import Mind from "./components/Mind"
+import Heart from "./components/Heart"
+import Soul from "./components/Soul"
 
 
 
 
 function App() {
+
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await GetQuotes
+    }
+    fetchData()
+  }, [])
+
+
+
+
+
+
   return (
     <div className="App">
       <Navbar />
@@ -18,19 +35,20 @@ function App() {
           <div>Your Kindness</div>
         </Route>
 
-        <Route exact path="./Mind">
+        <Route exact path="/Mind/">
           <Mind />
         </Route>
 
-        <Route path="./Heart">
+        <Route path="/Heart/">
           <Heart />
         </Route>
 
-        <Route path="./Soul">
+        <Route path="/Soul/">
           <Soul />
         </Route>
         
       </Switch>
+      
     </div>
   );
 }

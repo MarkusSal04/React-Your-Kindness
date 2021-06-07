@@ -1,6 +1,10 @@
+import { useState, useEffect } from "react";
 
 
 export default function Soul() {
-  return 
+  return (
+    <div>Listen To Your Spirit</div>
+
+  )
   
 }

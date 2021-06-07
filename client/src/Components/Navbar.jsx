@@ -9,13 +9,13 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Mind</Link>
+          <Link to="/Mind">Mind</Link>
         </li>
         <li>
-          <Link to="/">Heart</Link>
+          <Link to="/Heart">Heart</Link>
         </li>
         <li>
-          <Link to="/">Soul</Link>
+          <Link to="/Soul">Soul</Link>
         </li>
       </ul>
     </nav>
