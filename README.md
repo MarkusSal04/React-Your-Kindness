@@ -9,7 +9,8 @@ A website where you can state how you feel, what quote of the day is in your min
 I made a version for both a phone and desktop. https://www.figma.com/file/aSy6rgYk315FDPcdP3WuGj/Kindness
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+
+https://app.creately.com/diagram/K47OnvvTdvc/view
 
 ## API and Data Sample
 
@@ -19,34 +20,41 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "rectn1q26eF5AMNBw",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "images": [
+                    {
+                        "id": "attpYJyhelaNtvMEp",
+                        "url": "https://dl.airtable.com/.attachments/4cb53adefd3ddac292dcc49a0e8ebda9/69921b12/hyacinth-purple-flower-garden-shutterstock-com_12399.jpg",
+                        "filename": "hyacinth-purple-flower-garden-shutterstock-com_12399.jpg",
+                        "size": 185941,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/57903204083e5264bf90ddb57910e6e2/474a49bb",
+                                "width": 54,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/c3e9c51ef58b744ffa072e72506e2a9e/ea36df6b",
+                                "width": 768,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/d18cf529c495f582666584cc7e3a3409/29dc86fd",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ],
+                "expression": "\"Which each love we give...theres more room for hurt AND growth.",
+                "name": "BlueMind",
+                "dateMade": "06/07/2020"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "rec3oYZ5Tp0AIDsKe",
-            "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
-        },
-        {
-            "id": "recA34tOaoE1IVeC1",
-            "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
-            },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-06-07T14:44:30.000Z"
         }
-    ],
-    "offset": "recA34tOaoE1IVeC1"
+    ]
 }
 ```
 
@@ -55,17 +63,17 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Be able to create in each desination.
+- Render data on page.
+- Use external links to goto other websites relevent to quotes.
+- 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Allow user to choose favorites 
+- Be able to let User create and choose where to send it.
+- 
 
 ## Project Schedule
 
@@ -91,7 +99,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Basic CSS | H |  3hr | :---: | :---: |
+| Get API displayed | H |  2hr | :---: | :---: |
+| Work on Components | M |  2hr | :---: | :---: |
+| Set up Create function | 3hr |  :---: | :---: | :---: |
+|  | :---: |  :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: | :---: |
+| Testing and Error-Handling | M |  3hr | :---: | :---: |
+| Media queries | M |  3hr | :---: | :---: |
 | Total | H | 6hrs| 5hrs | 5hrs |
+
+
 
 ## SWOT Analysis
 
