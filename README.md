@@ -73,7 +73,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 - Allow user to choose favorites 
 - Be able to let User create and choose where to send it.
-- 
+- Add images with the creat feature.
 
 ## Project Schedule
 
@@ -98,26 +98,28 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Installing NPMS | H |  2hr | :---: | :---: |
+| Set imports/App.js | H |  3hr | :---: | :---: |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Basic CSS | H |  3hr | :---: | :---: |
 | Get API displayed | H |  2hr | :---: | :---: |
-| Work on Components | M |  2hr | :---: | :---: |
-| Set up Create function | H |  3hr | :---: | :---: |
-|  | :---: |  :---: | :---: | :---: |
-| --- | :---: |  :---: | :---: | :---: |
-| --- | :---: |  :---: | :---: | :---: |
+| Map out Components | M |  2hr | :---: | :---: |
+| Start Pull Component | H |  3hr | :---: | :---: |
+| EventListeners | M | 3hr | :---: | :---: |
+| Start Create function | H |  4hr | :---: | :---: |
+| Advance CSS | M | 4hr | :---: | :---: |
 | Testing and Error-Handling | M |  3hr | :---: | :---: |
 | Media queries | M |  3hr | :---: | :---: |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 38hrs| 5hrs | 5hrs |
 
 
 
 ## SWOT Analysis
 
-### Strengths:
+### Strengths: I am strong pulling and displaying data with the API.
 
-### Weaknesses:
+### Weaknesses: 
 
-### Opportunities:
+### Opportunities: I feel like I can push myself a bit further with this project on both understanding and learning.
 
 ### Threats:
