@@ -11,7 +11,7 @@ export default function Mind() {
     fetchData()
   }, [])
 
-
+  
   return (
     <div>Motivate Your Mind</div>
 
