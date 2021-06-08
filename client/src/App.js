@@ -1,17 +1,14 @@
 import './App.css';
 import { Route, Switch, } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
-import { GetQuotes } from "./services/api";
-
-
 import Mind from "./components/Mind"
 import Heart from "./components/Heart"
 import Soul from "./components/Soul"
-
-
-
+import Create from "./components/Create"
 
 function App() {
+
   return (
     <div className="App">
       <Navbar />
@@ -34,6 +31,9 @@ function App() {
         <Soul />
       </Route>
         
+      <Route path="/Create/">
+        <Create />
+      </Route>
       </Switch>
 
     </div>

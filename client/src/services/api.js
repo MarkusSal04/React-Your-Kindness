@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 const apiKey = process.env.REACT_APP_AIRTABLE_KEY
-
 const baseURL = "https://api.airtable.com/v0/appw5lF40FOHoirWQ/Table%201"
 
 const config = {
@@ -10,9 +9,10 @@ const config = {
   }
 }
 
-export const GetQuotes = async () => {
+export const getAllQuotes = async () => {
   try {
     const res = await axios.get(baseURL, config)
+    console.log()
     return res.data.records
   } catch (error){
     console.error(error)
@@ -22,11 +22,14 @@ export const GetQuotes = async () => {
 
 
 
-// export const CreateQuote = async (form) => {
-//   try {
-//     const res = await axios.post(`${baseURL}/`, { fields: form }, config);
-//     return res.data;
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
+
+
+
+export const CreateQuote = async (form) => {
+  try {
+    const res = await axios.post(`${baseURL}/`, { fields: form }, config);
+    return res.data;
+  } catch (error) {
+    console.error(error);
+  }
+}
