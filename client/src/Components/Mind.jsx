@@ -14,17 +14,15 @@ export default function Mind() {
   }, []);
 
 
-
   return (
     <div>
       {quotes.map((quote) => {
         return <div key={quotes.id}>
-          {quote.fields.name}
-          <p>Name: {quote.fields.name}
-          </p>
-          <p>Quote: {quote.fields.quote}</p>
-          <p>Date: {quote.fields.dateMade}</p>
-        </div>;
+          <h2></h2>
+            <p>Name: {quote.fields.name}</p>
+            <p>Quote: {quote.fields.quote}</p>
+            <p>Date: {quote.fields.dateMade}</p>
+          </div>;
       })}
     </div>
   );

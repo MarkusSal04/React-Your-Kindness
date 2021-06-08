@@ -21,29 +21,30 @@ export default function CreateQuote() {
   }
 
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    const res = CreateQuote(input)
-    
+    const res = await createQuote()
+    console.log(res)
   }
 
 
   return (
-    <forms>
-      <div className="Create">
-        <label>
-          Name:
-           <input type="text" name="name" />
-        </label>
-        <label>
-          Quote:
-           <input type="text" name="Quote" />
-        </label>
-        <label>
-          Date:
-           <input type="text" name="Date" />
-        </label>
-      </div>
-    </forms>
+    <div className="Create">
+      <forms>
+        <label>Name: </label>
+          <input type="text" name="name" onChange={handleChange} />
+        
+        <label> Quote:</label>
+        <input type="text" name="quote" onChange={handleChange} />
+        
+        <label>Date:</label>
+        <input type="text" name="dateMade" onChange={handleChange} />
+        
+        <button onSubmit={handleSubmit} type="submit">
+          Submit
+        </button>
+      </forms>
+    </div>
+    
   )
 }

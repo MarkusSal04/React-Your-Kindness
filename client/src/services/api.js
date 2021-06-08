@@ -25,7 +25,7 @@ export const getAllQuotes = async () => {
 
 
 
-export const CreateQuote = async (form) => {
+export const createQuote = async (form) => {
   try {
     const res = await axios.post(`${baseURL}/`, { fields: form }, config);
     return res.data;
