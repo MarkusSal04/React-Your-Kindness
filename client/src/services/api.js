@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const apiKey = process.env.REACT_APP_AIRTABLE_KEY
 
-const baseURL = "https://api.airtable.com/v0/appU8XYb6B48PDpu1/Table%201"
+const baseURL = "https://api.airtable.com/v0/appw5lF40FOHoirWQ/Table%201"
 
 const config = {
   headers: {

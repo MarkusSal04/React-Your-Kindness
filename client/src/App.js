@@ -13,11 +13,12 @@ import Soul from "./components/Soul"
 
 
 function App() {
-
+const [quotes, setQuotes] = useState("")
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await GetQuotes
+      const res = await GetQuotes()
+      setQuotes(res)
     }
     fetchData()
   }, [])
