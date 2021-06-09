@@ -26,6 +26,7 @@ export default function CreateQuote() {
     console.log(res);
   };
 
+
   return (
     <div className="Create">
       <h2>Contribute to The Kindess</h2>
@@ -41,7 +42,12 @@ export default function CreateQuote() {
         <input type="text" name="dateMade" />
         <br />
         <label>Expression:</label>
-        <input type="list" name="expression" />
+        <input list="categories" name="expression" />
+        <datalist id="categories">
+          <option value="Mind" />
+          <option value="Heart" />
+          <option value="Soul" />
+        </datalist>
         <br />
         <button type="submit">Submit</button>
       </form>

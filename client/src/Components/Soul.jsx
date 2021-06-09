@@ -19,7 +19,7 @@ export default function Soul() {
   return (
     <div>
       {quotesSoul.map((quote) => {
-        return <div key={quotes.id}>
+        return <div key={quote.id}>
           <p>Name: {quote.fields.name}</p>
           <p>Quote: {quote.fields.quote}</p>
           <p>Date: {quote.fields.dateMade}</p>
