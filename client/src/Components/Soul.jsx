@@ -17,7 +17,7 @@ export default function Soul() {
   console.log(quotesSoul)
 
   return (
-    <div>
+    <div className="container">
       {quotesSoul.map((quote) => {
         return <div key={quote.id}>
           <p>Name: {quote.fields.name}</p>

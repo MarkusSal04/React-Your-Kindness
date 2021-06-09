@@ -16,7 +16,7 @@ export default function Mind() {
   console.log(quotesMind)
 
     return (
-      <div>
+      <div className="container">
         <h2>Expression</h2>
         <h4>Here lets motivate each other to complete our goals in life. We may be struggling however, we can endure the process as long as we believe and trust in it.</h4>
         {quotesMind.map((quote) => {

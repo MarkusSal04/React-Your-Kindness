@@ -28,10 +28,10 @@ export default function CreateQuote() {
 
 
   return (
-    <div className="Create">
+    <div onSubmit={handleSubmit}  className="Create">
       <h2>Contribute to The Kindess</h2>
       <p>Just let your thoughts flow.</p>
-      <form onChange={handleChange} onSubmit={handleSubmit}>
+      <form onChange={handleChange} >
         <label>Name: </label>
         <input type="text" name="name" />
         <br />
