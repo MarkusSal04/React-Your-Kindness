@@ -11,12 +11,14 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="Header">
+    <div className="App">
       <Navbar />
 
       <Switch>
         <Route exact path="/">
-        <div className="Body">
+          <div className="Body">
+          <div className="head">Your Kindness</div>
+
           <h2>Welcome</h2>
           <p>I made this project with the intent of helping people uplift one another and to freely express themselves in a authentic, passionate way. I personally struggle to stay focus and I tend to watch motivational videos to help keep me focus.</p>
         </div>

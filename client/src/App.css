@@ -1,1 +1,13 @@
+.App{
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4vCzlMfJMSMEt0XrqFbpEw093fY9mL1E46w&usqp=CAU"); */
+  background-color: thistle;
+}
 
+.Nav {
+  text-align: left;
+  color: teal;
+}
+
+.Body {
+  color: tomato;
+}

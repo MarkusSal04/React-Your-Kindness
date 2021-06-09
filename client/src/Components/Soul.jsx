@@ -9,20 +9,18 @@ export default function Soul() {
     const fetchData = async () => {
       const res = await getAllQuotes();
       setQuotes(res);
-      console.log(res)
     };
     fetchData();
   }, []);
 
-
+  const quotesSoul = quotes.filter(quote => quote.fields.expression === "Soul")
+  console.log(quotesSoul)
 
   return (
     <div>
-      {quotes.map((quote) => {
+      {quotesSoul.map((quote) => {
         return <div key={quotes.id}>
-          {quote.fields.name}
-          <p>Name: {quote.fields.name}
-          </p>
+          <p>Name: {quote.fields.name}</p>
           <p>Quote: {quote.fields.quote}</p>
           <p>Date: {quote.fields.dateMade}</p>
         </div>;

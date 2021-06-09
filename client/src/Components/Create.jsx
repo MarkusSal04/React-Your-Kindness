@@ -5,6 +5,7 @@ const newArt = {
   name: "",
   quote: "",
   dateMade: "",
+  expression: "",
 };
 
 export default function CreateQuote() {
@@ -32,13 +33,16 @@ export default function CreateQuote() {
       <form onChange={handleChange} onSubmit={handleSubmit}>
         <label>Name: </label>
         <input type="text" name="name" />
-
+        <br />
         <label> Quote:</label>
         <input type="text" name="quote" />
-
+        <br />
         <label>Date:</label>
         <input type="text" name="dateMade" />
-
+        <br />
+        <label>Expression:</label>
+        <input type="list" name="expression" />
+        <br />
         <button type="submit">Submit</button>
       </form>
     </div>
