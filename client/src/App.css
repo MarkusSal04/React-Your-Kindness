@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2014/12/cool-abstract-flower-HD-wallpaper.jpg");
+  background-image: url("https://media.istockphoto.com/photos/teal-pink-and-dark-blue-defocused-blurred-motion-gradient-abstract-picture-id1198514311?k=6&m=1198514311&s=612x612&w=0&h=1cLwXRIdQ-z-D7jU6j38qsJrm259SW3HOn6izyjPfSg=");
   background-color: thistle;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,33 +8,56 @@ body{
 }
 
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .title{
-  color: rgb(206, 45, 5);
+  color: rgb(117, 67, 131);
   margin: 75px;
   text-align: center;
   }
 
 .Nav {
   text-align: left;
-  color: teal;
+  width: 50px;
+  border-bottom: 2px solid black;
+}
+
+a:link{
+  color:black;
+}
+
+a:visited {
+  color: rgb(134, 120, 170);
+}
+
+a:hover {
+  color: hotpink;
 }
 
 .Body {
-  color: rgb(29, 20, 70);
+  color: rgb(221, 219, 219);
+}
+
+h2{
+  color: rgb(128, 20, 128);
+  text-align: center;
 }
 
 .Quote{
-  border: 2px solid black;
+  border: 4px solid rgb(19, 5, 93);
+  border-style: inset;
   margin: 5px;
   width: 300px;
+  background-color: rgb(75, 75, 139);
+  flex-direction: row;
+}
+
+.Box{
+  display: flex;
+  flex-direction: column;
 }
 
 .Footer{
+  display: flex;
+  position: absolute;
   flex: 0 0 50px;
 }
 

@@ -2,6 +2,10 @@
 
 export default function Footer(){
   return (
-    <div>Made by</div>
+    <div>
+      <div className="Footer">
+        <p>Made by Markus Salgado</p>
+      </div>
+    </div>
   )
 }

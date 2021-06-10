@@ -39,22 +39,30 @@ export default function CreateQuote() {
         <label>Name: </label>
         <input
           type="text"
-          name="name" />
+          name="name"
+          required
+        />
         <br />
         <label> Quote:</label>
         <input
           type="text"
-          name="quote" />
+          name="quote"
+          required
+        />
         <br />
         <label>Date:</label>
         <input
           type="text"
-          name="dateMade" />
+          name="dateMade"
+          required
+        />
         <br />
         <label>Expression:</label>
         <input
           list="categories"
-          name="expression" />
+          name="expression"
+          required
+        />
         <datalist id="categories">
           <option value="Mind" />
           <option value="Heart" />

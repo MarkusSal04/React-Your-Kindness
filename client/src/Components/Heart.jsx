@@ -18,8 +18,9 @@ export default function Heart() {
 
   return (
     <div>
+      <h2>Emotions is the stepping stone to Happiness </h2>
       {quotesHeart.map((quote) => {
-        return <div className="Quote" key={quote.id}>
+        return <div className="Quote container-2" key={quote.id}>
           <p>Name: {quote.fields.name}</p>
           <p>Quote: {quote.fields.quote}</p>
           <p>Date: {quote.fields.dateMade}</p>
