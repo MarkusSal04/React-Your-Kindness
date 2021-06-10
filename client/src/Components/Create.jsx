@@ -26,23 +26,35 @@ export default function CreateQuote() {
     console.log(res);
   };
 
+  const handleReset = (e) => {
+  }
+
+
 
   return (
-    <div onSubmit={handleSubmit}  className="Create">
+    <div className="Create" >
       <h2>Contribute to The Kindess</h2>
       <p>Just let your thoughts flow.</p>
-      <form onChange={handleChange} >
+      <form onChange={handleChange} onSubmit={handleSubmit} onReset={handleReset}>
         <label>Name: </label>
-        <input type="text" name="name" />
+        <input
+          type="text"
+          name="name" />
         <br />
         <label> Quote:</label>
-        <input type="text" name="quote" />
+        <input
+          type="text"
+          name="quote" />
         <br />
         <label>Date:</label>
-        <input type="text" name="dateMade" />
+        <input
+          type="text"
+          name="dateMade" />
         <br />
         <label>Expression:</label>
-        <input list="categories" name="expression" />
+        <input
+          list="categories"
+          name="expression" />
         <datalist id="categories">
           <option value="Mind" />
           <option value="Heart" />
@@ -50,6 +62,7 @@ export default function CreateQuote() {
         </datalist>
         <br />
         <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
       </form>
     </div>
   );

@@ -1,9 +1,10 @@
 body{
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-watercolor-floral-background-flowers-simple-image_4932.jpg");
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2014/12/cool-abstract-flower-HD-wallpaper.jpg");
   background-color: thistle;
-  background-position: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -24,7 +25,13 @@ body{
 }
 
 .Body {
-  color: rgb(68, 55, 128);
+  color: rgb(29, 20, 70);
+}
+
+.Quote{
+  border: 2px solid black;
+  margin: 5px;
+  width: 300px;
 }
 
 .Footer{

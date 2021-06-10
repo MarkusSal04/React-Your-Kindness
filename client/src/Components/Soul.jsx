@@ -17,9 +17,10 @@ export default function Soul() {
   console.log(quotesSoul)
 
   return (
-    <div className="container">
+    <div >
+      <h2>Soul is the bridge to Connection</h2>
       {quotesSoul.map((quote) => {
-        return <div key={quote.id}>
+        return <div className="Quote" key={quote.id}>
           <p>Name: {quote.fields.name}</p>
           <p>Quote: {quote.fields.quote}</p>
           <p>Date: {quote.fields.dateMade}</p>

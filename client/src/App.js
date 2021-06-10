@@ -20,6 +20,7 @@ function App() {
           <h1 className="title">Your Kindness</h1>
 
           <h2>Welcome</h2>
+          <h4>Your mind keeps you Focus, your heart keeps you Strong and your Soul keeps you Connected.</h4>
           <p>I made this project with the intent of helping people uplift one another and to freely express themselves in a authentic, passionate way. I personally struggle to stay focus and I tend to watch motivational videos to help keep me focus.</p>
         </div>
         <div className="Footer">
@@ -41,6 +42,9 @@ function App() {
           <Create />
         </Route>
       </Switch>
+
+
+
       <Footer />
     </div>
   );
