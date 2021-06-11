@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://media.istockphoto.com/photos/teal-pink-and-dark-blue-defocused-blurred-motion-gradient-abstract-picture-id1198514311?k=6&m=1198514311&s=612x612&w=0&h=1cLwXRIdQ-z-D7jU6j38qsJrm259SW3HOn6izyjPfSg=");
+  background-image: url("./assets/images/p2Img.jpeg");
   background-color: thistle;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,6 @@ body {
   margin: 75px;
   text-align: center;
 }
-
 
 .Nav {
   text-align: left;
@@ -41,9 +40,8 @@ h2 {
   text-align: center;
 }
 
-.Nav-bar{
+.Nav-bar {
   display: flex;
-  
 }
 
 .Quote {
