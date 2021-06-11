@@ -16,12 +16,14 @@ export default function Mind() {
   console.log(quotesMind)
 
   return (
-      <div className="Quotes">
-        <div>
+      <div className="All">
+        <div className="Body">
           <h2>Mental focus is the key to Success</h2>
           <p>Here lets motivate each other to complete our goals in life. We may be struggling however, we can endure the process as long as we believe and trust in it.</p>
+        </div>
+        <div className="Quotes">
           {quotesMind.map((quote) => {
-          return  <div className="Quote container-1" key={quote.id}>
+          return  <div className="Quote" key={quote.id}>
               <p>Name: {quote.fields.name}</p>
               <p>Quote: {quote.fields.quote}</p>
               <p>Date: {quote.fields.dateMade}</p>

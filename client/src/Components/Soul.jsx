@@ -17,11 +17,15 @@ export default function Soul() {
   console.log(quotesSoul)
 
   return (
-    <div className="Quotes">
-      <div >
+    <div className="All">
+      <div className="Body">
         <h2>Soul is the bridge to Connection</h2>
+        <p></p>
+        </div>
+
+        <div className="Quotes">
         {quotesSoul.map((quote) => {
-          return <div className="Quote container-3" key={quote.id}>
+          return <div className="Quote" key={quote.id}>
             <p>Name: {quote.fields.name}</p>
             <p>Quote: {quote.fields.quote}</p>
             <p>Date: {quote.fields.dateMade}</p>

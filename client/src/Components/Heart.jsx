@@ -17,11 +17,14 @@ export default function Heart() {
   console.log(quotesHeart)
 
   return (
-    <div className="Quotes">
-      <div>
+    <div className="All">
+      <div className="Body">
         <h2>Emotions is the stepping stone to Happiness </h2>
+        <p>At every corner in life, we will constantly inherent a wave of emotions, what you do with it is up speaks about you as a person.</p>
+      </div>
+      <div className="Quotes">
         {quotesHeart.map((quote) => {
-          return <div className="Quote container-2" key={quote.id}>
+          return <div className="Quote" key={quote.id}>
             <p>Name: {quote.fields.name}</p>
             <p>Quote: {quote.fields.quote}</p>
             <p>Date: {quote.fields.dateMade}</p>
@@ -29,7 +32,6 @@ export default function Heart() {
         })}
       </div>
     </div>
- 
   );
   
 }
