@@ -1,4 +1,4 @@
-body{
+body {
   background-image: url("https://media.istockphoto.com/photos/teal-pink-and-dark-blue-defocused-blurred-motion-gradient-abstract-picture-id1198514311?k=6&m=1198514311&s=612x612&w=0&h=1cLwXRIdQ-z-D7jU6j38qsJrm259SW3HOn6izyjPfSg=");
   background-color: thistle;
   background-position: center;
@@ -7,12 +7,12 @@ body{
   background-size: cover;
 }
 
-
-.title{
+.title {
   color: rgb(117, 67, 131);
   margin: 75px;
   text-align: center;
-  }
+}
+
 
 .Nav {
   text-align: left;
@@ -20,8 +20,8 @@ body{
   border-bottom: 2px solid black;
 }
 
-a:link{
-  color:black;
+a:link {
+  color: black;
 }
 
 a:visited {
@@ -36,12 +36,17 @@ a:hover {
   color: rgb(221, 219, 219);
 }
 
-h2{
+h2 {
   color: rgb(128, 20, 128);
   text-align: center;
 }
 
-.Quote{
+.Nav-bar{
+  display: flex;
+  
+}
+
+.Quote {
   border: 4px solid rgb(19, 5, 93);
   border-style: inset;
   margin: 5px;
@@ -50,14 +55,19 @@ h2{
   flex-direction: row;
 }
 
-.Box{
+.External {
   display: flex;
   flex-direction: column;
 }
 
-.Footer{
+.Box {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.Footer {
   display: flex;
   position: absolute;
   flex: 0 0 50px;
 }
-

@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className="App Container">
+    <div className="App">
       <Navbar />
       <Switch>
         <Route exact path="/">
@@ -35,11 +35,14 @@ function App() {
           </div>
           
         {quotes.map((quote) => {
-        return <div className="Quote Box" key={quote.id}>
-          <p>Name: {quote.fields.name}</p>
-          <p>Quote: {quote.fields.quote}</p>
-          <p>Date: {quote.fields.dateMade}</p>
-        </div>;
+          return <div className="Box">
+            <div className="Quote" key={quote.id}>
+              <p>Name: {quote.fields.name}</p>
+              <p>Quote: {quote.fields.quote}</p>
+              <p>Date: {quote.fields.dateMade}</p>
+            </div>
+          </div>
+        ;
       })}
       
         </Route>
@@ -55,7 +58,7 @@ function App() {
         <Route exact path="/Soul/">
           <Soul />
         </Route>
-        
+
         <Route  exact path="/Create/">
           <Create />
         </Route>
