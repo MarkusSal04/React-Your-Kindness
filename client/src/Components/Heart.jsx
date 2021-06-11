@@ -16,8 +16,7 @@ export default function Heart() {
   const quotesHeart = quotes.filter(quote => quote.fields.expression === "Heart")
   console.log(quotesHeart)
 
-  // okay
-  return (
+return (
     <div>
       <h2>Emotions is the stepping stone to Happiness </h2>
       {quotesHeart.map((quote) => {
