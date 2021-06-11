@@ -32,46 +32,52 @@ export default function CreateQuote() {
 
 
   return (
-    <div className="Create" >
-      <h2>Contribute to The Kindess</h2>
-      <p>Just let your thoughts flow.</p>
-      <form onChange={handleChange} onSubmit={handleSubmit} onReset={handleReset}>
-        <label>Name: </label>
-        <input
-          type="text"
-          name="name"
-          required
-        />
-        <br />
-        <label> Quote:</label>
-        <input
-          type="text"
-          name="quote"
-          required
-        />
-        <br />
-        <label>Date:</label>
-        <input
-          type="text"
-          name="dateMade"
-          required
-        />
-        <br />
-        <label>Expression:</label>
-        <input
-          list="categories"
-          name="expression"
-          required
-        />
-        <datalist id="categories">
-          <option value="Mind" />
-          <option value="Heart" />
-          <option value="Soul" />
-        </datalist>
-        <br />
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-      </form>
+    <div className="All">
+      <div >
+        <h2>Contribute to The Kindess</h2>
+        <p>Sometimes what you create is not thought out or intentional....sometimes it starts with just a feeling in the moment when you want to succeed.</p>
+      </div>
+      <div className="Create">
+        <div className="Form">
+          <form onChange={handleChange} onSubmit={handleSubmit} onReset={handleReset}>
+            <label>Name: </label>
+            <input
+              type="text"
+              name="name"
+              required
+            />
+            <br />
+            <label> Quote:</label>
+            <input
+              type="text"
+              name="quote"
+              required
+            />
+            <br />
+            <label>Date:</label>
+            <input
+              type="text"
+              name="dateMade"
+              required
+            />
+            <br />
+            <label>Expression:</label>
+            <input
+              list="categories"
+              name="expression"
+              required
+            />
+            <datalist id="categories">
+              <option value="Mind" />
+              <option value="Heart" />
+              <option value="Soul" />
+            </datalist>
+            <br />
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

@@ -34,17 +34,18 @@ function App() {
             <p>I made this project with the intent of helping people uplift one another and to freely express themselves in a authentic, passionate way. I personally struggle to stay focus and I tend to watch motivational videos to help keep me focus.</p>
           </div>
           
-        {quotes.map((quote) => {
-          return <div className="Box">
-            <div className="Quote" key={quote.id}>
-              <p>Name: {quote.fields.name}</p>
-              <p>Quote: {quote.fields.quote}</p>
-              <p>Date: {quote.fields.dateMade}</p>
+          <div className="Quotes">
+          {quotes.map((quote) => {
+            return <div className="Box">
+              <div className="Quote" key={quote.id}>
+                <p>Name: {quote.fields.name}</p>
+                <p>Quote: {quote.fields.quote}</p>
+                <p>Date: {quote.fields.dateMade}</p>
+              </div>
             </div>
-          </div>
-        ;
-      })}
-      
+          ;
+          })}
+        </div>
         </Route>
 
         <Route exact path="/Mind/">
