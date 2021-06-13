@@ -38,9 +38,9 @@ function App() {
           {quotes.map((quote) => {
             return <div className="Box">
               <div className="Quote" key={quote.id}>
-                <p>Name: {quote.fields.name}</p>
-                <p>Quote: {quote.fields.quote}</p>
-                <p>Date: {quote.fields.dateMade}</p>
+                <p>{quote.fields.name}</p>
+                <p>{quote.fields.quote}</p>
+                <p>{quote.fields.dateMade}</p>
               </div>
             </div>
           ;

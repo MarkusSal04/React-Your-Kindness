@@ -9,23 +9,17 @@ export default function Navbar() {
   return (
     <nav>
       <div className="Navbar" >
-      
           <div className="Internal"> 
-            <Link to="/">Home</Link>
-            <br />
+          <Link to="/">Home</Link>
             <Link to="/Mind">Mind</Link>
-            <br />
             <Link to="/Heart">Heart</Link>
-            <br />
-            <Link to="/Soul">Soul</Link>
-            <br />
+          <Link to="/Soul">Soul</Link>
             <Link to="/Create">New</Link>
           </div>
           <div className="External">
             <a href="https://www.brainyquote.com/">
               BrainyQuotes
             </a>
-            <br />
             <a href ="https://www.inspiringquotes.us/">
               InspiringQuotes
             </a>

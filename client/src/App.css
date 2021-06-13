@@ -11,6 +11,7 @@ body {
   color: rgb(117, 67, 131);
   margin: 50px;
   text-align: center;
+  font-size: xx-large;
 }
 
 a:link {
@@ -26,11 +27,15 @@ a:hover {
 }
 
 .Body {
-  color: rgb(221, 219, 219);
+  color: rgb(255, 255, 255);
 }
 
 h2 {
   color: rgb(128, 20, 128);
+  text-align: center;
+}
+
+p{
   text-align: center;
 }
 
@@ -91,41 +96,67 @@ h2 {
 }
 
 @media only screen and (max-device-width: 500px) {
+  body {
+    background-image: url("./assets/images/teal.jpeg");
+    background-color: rgb(36, 69, 160);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
   .title {
-    color: rgb(126, 43, 43);
+    color: rgb(47, 34, 235);
     margin: 50px;
     text-align: center;
+  }
+
+  h2 {
+    color: rgb(209, 191, 27);
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  a:link {
+    color: rgb(255, 255, 255);
+  }
+
+  a:visited {
+    color: rgb(13, 71, 126);
+  }
+
+  a:hover {
+    color: rgb(74, 190, 132);
   }
 
   .Navbar {
     height: 80px;
     display: flex;
-    font-size: medium;
+    font-size: small;
     justify-content: space-evenly;
-
   }
-  
+
   .Quotes {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    position: fixed;
   }
 
-
   .Quote {
-    border: 4px solid rgb(63, 1, 1);
+    border: 4px solid rgb(17, 70, 4);
     border-style: inset;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgb(88, 29, 2);
-    flex-direction: row;
+    background-color: rgb(2, 75, 88);
+    flex-direction: column;
   }
 
   .Internal {
     display: flex;
     flex-direction: row;
   }
-  
+
   .External {
     display: flex;
     flex-direction: row;

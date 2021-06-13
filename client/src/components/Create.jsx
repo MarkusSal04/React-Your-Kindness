@@ -33,7 +33,7 @@ export default function CreateQuote() {
 
   return (
     <div className="All">
-      <div >
+      <div className="Body">
         <h2>Contribute to The Kindess</h2>
         <p>Sometimes what you create is not thought out or intentional....sometimes it starts with just a feeling in the moment when you want to succeed.</p>
       </div>

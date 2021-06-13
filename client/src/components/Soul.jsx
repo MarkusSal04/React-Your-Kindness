@@ -20,15 +20,15 @@ export default function Soul() {
     <div className="All">
       <div className="Body">
         <h2>Soul is the bridge to Connection</h2>
-        <p></p>
+        <p>The start of all healing, begins with the spirit.</p>
         </div>
 
         <div className="Quotes">
         {quotesSoul.map((quote) => {
           return <div className="Quote" key={quote.id}>
-            <p>Name: {quote.fields.name}</p>
-            <p>Quote: {quote.fields.quote}</p>
-            <p>Date: {quote.fields.dateMade}</p>
+            <p>{quote.fields.name}</p>
+            <p>{quote.fields.quote}</p>
+            <p>{quote.fields.dateMade}</p>
           </div>;
         })}
       </div>
