@@ -33,8 +33,7 @@ export default function CreateQuote() {
       <div className="Body">
         <h2>Contribute to The Kindess</h2>
         <p>
-          Sometimes what you create is not thought out or
-          intentional....sometimes it starts with just a feeling in the moment
+          Sometimes what you create is not intentional. Sometimes it starts with just a feeling...in the moment
           when you want to succeed.
         </p>
       </div>
