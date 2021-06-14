@@ -13,7 +13,6 @@ export default function Mind() {
   }, []);
     
   const quotesMind = quotes.filter(quote => quote.fields.expression === "Mind")
-  console.log(quotesMind)
 
   return (
       <div className="All">

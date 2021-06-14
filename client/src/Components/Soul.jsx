@@ -14,7 +14,6 @@ export default function Soul() {
   }, []);
 
   const quotesSoul = quotes.filter(quote => quote.fields.expression === "Soul")
-  console.log(quotesSoul)
 
   return (
     <div className="All">

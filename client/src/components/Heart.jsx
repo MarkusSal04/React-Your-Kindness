@@ -14,7 +14,6 @@ export default function Heart() {
   }, []);
 
   const quotesHeart = quotes.filter(quote => quote.fields.expression === "Heart")
-  console.log(quotesHeart)
 
   return (
     <div className="All">

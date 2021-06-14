@@ -23,7 +23,7 @@ export default function CreateQuote() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await createQuote(input);
-    console.log(res);
+    console.log("Thank you for your Contribution.",res);
   };
 
   const handleReset = (e) => {};
