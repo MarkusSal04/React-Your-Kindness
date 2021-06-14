@@ -19,7 +19,7 @@ export default function Heart() {
   return (
     <div className="All">
       <div className="Body">
-        <h2>Emotions is the stepping stone to Happiness </h2>
+        <h2>Emotions is the CornerStone of being Human </h2>
         <p>At every corner in life, we will constantly inherent a wave of emotions, what you do with it is up speaks about you as a person.</p>
       </div>
       <div className="Quotes">
