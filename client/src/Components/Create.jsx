@@ -51,7 +51,7 @@ export default function CreateQuote() {
             <input type="text" name="quote" required />
             <br />
             <label>Date:</label>
-            <input type="text" name="dateMade" required />
+            <input type="date" name="dateMade" required />
             <br />
             <label>Expression:</label>
             <input list="categories" name="expression" required />
