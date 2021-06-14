@@ -19,7 +19,7 @@ export default function Mind() {
       <div className="All">
         <div className="Body">
           <h2>Mental focus is the key to Success</h2>
-          <p>Motivate each other to complete our goals in life. We may be struggling however, we can endure the process as long as we believe and trust in it.</p>
+          <p>We may be struggling however, we can endure the process as long as we believe and trust in it.</p>
         </div>
         <div className="Quotes">
           {quotesMind.map((quote) => {
